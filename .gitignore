@@ -1,2 +1,12 @@
-/2025-11-11_Umsteigehinweise_EVB_Beispiel.txt
-/evb_parsed_umstieg_zeiten.csv
+# Ignore everything
+*
+
+# Except Jupyter notebooks
+!*.ipynb
+!*.py
+!*.sh
+!*.md
+
+# Except directories
+!html/
+!html/template.html
